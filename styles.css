@@ -1,0 +1,21 @@
+.bakrLogo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    /* Set color for the text */
+    position: relative;
+}
+
+.bakrLogo::before {
+    content: '';
+    width: 30px;
+    /* Set the width and height of the circle */
+    height: 30px;
+    background-color: #fff;
+    /* Set the color of the circle */
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    /* Adjust positioning as needed */
+    top: 5px;
+}
