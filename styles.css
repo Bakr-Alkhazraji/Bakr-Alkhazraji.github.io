@@ -1,21 +1,56 @@
+.navbar {
+    background-color: #f0ecfc;
+
+}
+
 .bakrLogo {
     font-size: 24px;
     font-weight: bold;
-    color: #000;
-    /* Set color for the text */
-    position: relative;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
-.bakrLogo::before {
-    content: '';
-    width: 30px;
-    /* Set the width and height of the circle */
-    height: 30px;
-    background-color: #fff;
-    /* Set the color of the circle */
-    border-radius: 50%;
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer ul li a {
+    color: black;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.heroSection {
+    height: 300px;
+    margin-top: 55px;
+}
+
+.leftColumn {
+    background-color: #f0ecfc;
     position: absolute;
-    left: -10px;
-    /* Adjust positioning as needed */
-    top: 5px;
+    height: 300px;
+}
+
+.rightColumn {
+    position: absolute;
+    height: 300px;
+}
+
+.heroText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+#computerEng {
+    color: #4066ff;
+    text-decoration: underline;
 }
