@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .navbar {
     background-color: #f0ecfc;
 
@@ -7,7 +11,6 @@
     font-size: 24px;
     font-weight: bold;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
@@ -53,4 +56,25 @@
 #computerEng {
     color: #4066ff;
     text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+    .imgColumn {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.aboutColumn {
+    margin-top: 5%;
+    font-size: large;
+}
+
+.aboutColumn h2 {
+    color: #4066ff;
+}
+
+.aboutLi {
+    margin: 10px 0;
+    font-size: large;
 }
