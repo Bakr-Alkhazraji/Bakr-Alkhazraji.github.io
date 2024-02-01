@@ -70,7 +70,7 @@ body {
     font-size: large;
 }
 
-.aboutColumn h2 {
+.blueH2 {
     color: #4066ff;
 }
 
@@ -78,3 +78,46 @@ body {
     margin: 10px 0;
     font-size: large;
 }
+
+button {
+    padding: 7px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 10px;
+}
+
+.blueButton {
+    background-color: #4066ff;
+}
+
+.blueButton:hover {
+    color: #4066ff;
+    background-color: white;
+    border-color: #4066ff;
+}
+
+.eduText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.eduSection {
+    background-color: #f0ecfc;
+}
+
+/* .expLeftCol {
+    background-color: white;
+    position: absolute;
+    height: 300px;
+}
+
+.expRightCol {
+    position: absolute;
+    background-color: #f0ecfc;
+    height: 300px;
+} */

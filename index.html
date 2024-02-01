@@ -32,16 +32,16 @@
                         <a class="nav-link" href="#aboutMe">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Education</a>
+                        <a class="nav-link" href="#education">Education</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Experince</a>
+                        <a class="nav-link" href="#experience">Experience</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -49,7 +49,7 @@
         </div>
     </nav>
     <!--Hero section-->
-    <section class="heroSection">
+    <section class="heroSection container-fluid">
         <div class="row">
             <div class="col-6 leftColumn">
             </div>
@@ -65,12 +65,12 @@
         </div>
     </section>
     <section class="container-fluid" id="aboutMe">
-        <div class="row aboutRow">
+        <div class="row">
             <div class="col-12 col-md-6 imgColumn">
                 <img src="BakrImg.png" alt="My picture">
             </div>
             <div class="col-12 col-md-6 aboutColumn">
-                <h2>About Me</h2>
+                <h2 class="blueH2">About Me</h2>
                 <p>A fresh graduate interested in AI, web development and embedded systems.</p>
                 <ul>
                     <li class="aboutLi">
@@ -86,8 +86,73 @@
                         <b>Email: </b>Bakr.H.Alkhazraji@gmail.com
                     </li>
                 </ul>
+                <button class="blueButton"
+                    onclick="window.open('Resume_ Bakr_Al-Khazraji.pdf', '_blank')">Resume</button>
             </div>
         </div>
+    </section>
+    <section class="container-fluid eduSection" id="education">
+        <div class="row">
+            <!-- <div class="col-6 leftColumn">
+            </div>
+            <div class="col-6 rightColumn">
+            </div> -->
+            <div class="eduText">
+                <h2 class="blueH2 mb-3">Education</h2>
+                <p class="blueH2"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-book blueH2" viewBox="0 0 16 16">
+                            <path
+                                d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                        </svg></span> 2018 - 2023</p>
+                <h3>Bachlore's degree in computer engineering</h3>
+                <h5>Princess Sumaya University for Technology</h5>
+                <h6>Projects:</h6>
+                <ul>
+                    <li>
+                        Developed a semantic segmentation project for urban scene images using CNN.
+                    </li>
+                    <li>
+                        Developed a machine learning project in ride-sharing price prediction using different machine
+                        learning techniques.
+                    </li>
+                    <li>
+                        Designed and implemented a network cable testing system.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container-fluid expSection" id="experience">
+        <div class="row">
+            <!-- <div class="col-6 expLeftCol">
+            </div>
+            <div class="col-6 expRightCol">
+            </div> -->
+            <div class="eduText">
+                <h2 class="blueH2 mb-3">Experience</h2>
+                <p class="blueH2"><span><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-pc-display" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1zm1 13.5a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0m2 0a.5.5 0 1 0 1 0 .5.5 0 0 0-1 0M9.5 1a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1zM9 3.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 0-1h-5a.5.5 0 0 0-.5.5M1.5 2A1.5 1.5 0 0 0 0 3.5v7A1.5 1.5 0 0 0 1.5 12H6v2h-.5a.5.5 0 0 0 0 1H7v-4H1.5a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5H7V2z" />
+                        </svg></span> 2023</p>
+                <h3>Web development Internship</h3>
+                <h5>Arab Telecommunication Trading and Mintenance CO. ARTELCO</h5>
+                <ul>
+                    <li>
+                        Gained proficiency in web design tools: HTML, CSS, JavaScript, VScode, and Bootstrap.
+                    </li>
+                    <li>
+                        Designed user-friendly web pages: login, home, and landing pages.
+                    </li>
+                    <li>
+                        Developed problem-solving skills.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
     </section>
     <script src="scripts.js"></script>
 </body>
