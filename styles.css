@@ -110,14 +110,13 @@ button {
     background-color: #f0ecfc;
 }
 
-/* .expLeftCol {
-    background-color: white;
-    position: absolute;
-    height: 300px;
+footer {
+    background-color: #f0ecfc;
+    padding: 5% 0;
 }
 
-.expRightCol {
-    position: absolute;
-    background-color: #f0ecfc;
-    height: 300px;
-} */
+.footerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
